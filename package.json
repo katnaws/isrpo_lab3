@@ -1,0 +1,16 @@
+{
+  "name": "error-cat-meme-viewer",
+  "displayName": "CATastrophic errors",
+  "description": "Shows different cat memes based on the number of errors.",
+  "version": "0.0.1",
+  "publisher": "Peshkova Ekaterina",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "activationEvents": [
+    "onStartupFinished",
+    "onDidChangeDiagnostics"
+  ],
+  "main": "./extension.js",
+  "contributes": {}
+}
