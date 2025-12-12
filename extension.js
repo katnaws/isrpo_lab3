@@ -21,7 +21,7 @@ function activate(context) {
             imageName = "3_errors.jpg";
         } else if (errors === 4) {
             imageName = "4_errors.jpg";
-        } else if (5 <= errors < 10) {
+        } else if (errors >= 5 && errors < 10) {
             imageName = "5_to_10_errors.jpg";
         } else {
             imageName = "10_and_more_errors.jpg";
@@ -29,8 +29,8 @@ function activate(context) {
 
         if (!panel) {
             panel = vscode.window.createWebviewPanel(
-                "errorImagePanel",
-                "Ошибки",
+                "CatErrorImagePanel",
+                "Котошибки",
                 vscode.ViewColumn.Beside,
                 {
                     localResourceRoots: [
