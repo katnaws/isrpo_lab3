@@ -12,5 +12,9 @@
     "onDidChangeDiagnostics"
   ],
   "main": "./extension.js",
-  "contributes": {}
+  "contributes": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katnaws/isrpo_lab3.git"
+  }
 }
